@@ -13,8 +13,8 @@ export default function VitalsyncPage() {
       {/* ナビゲーション */}
       <nav className="bg-white shadow-md sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-6 py-4">
-          <Link 
-            href="/" 
+          <Link
+            href="/"
             className="text-blue-600 hover:text-blue-800 font-medium flex items-center"
           >
             ← ポートフォリオに戻る
@@ -28,15 +28,15 @@ export default function VitalsyncPage() {
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <h1 className="text-4xl font-bold mb-4 text-gray-800">Vitalsync</h1>
           <h2 className="text-2xl text-blue-600 mb-6">健康管理アプリ</h2>
-          
+
           <p className="text-lg text-gray-600 mb-6">
             体重・血圧・服薬を簡単に記録・管理できる健康管理アプリです。
             データは端末内に安全に保存され、グラフで変化を視覚的に確認できます。
           </p>
 
           <div className="flex gap-4 mb-8">
-            <a 
-              href="https://apps.apple.com/jp/developer/takahiro-eguchi/id1812546025" 
+            <a
+              href="https://apps.apple.com/jp/developer/takahiro-eguchi/id1812546025"
               className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium"
               target="_blank"
               rel="noopener noreferrer"
@@ -62,7 +62,7 @@ export default function VitalsyncPage() {
             <div className="space-y-3">
               <div className="aspect-[9/16] rounded-lg overflow-hidden shadow-lg border border-gray-200">
                 <Image
-                  src="/portfolio/images/vitalsync/weight.png"
+                  src={`${process.env.NODE_ENV === 'production' ? '/portfolio' : ''}/images/vitalsync/weight.png`}
                   alt="体重記録画面"
                   width={300}
                   height={533}
@@ -74,11 +74,11 @@ export default function VitalsyncPage() {
                 <div className="text-sm text-blue-600">日々の体重入力とグラフ表示</div>
               </div>
             </div>
-            
+
             <div className="space-y-3">
               <div className="aspect-[9/16] rounded-lg overflow-hidden shadow-lg border border-gray-200">
                 <Image
-                  src="/portfolio/images/vitalsync/BP.png"
+                  src={`${process.env.NODE_ENV === 'production' ? '/portfolio' : ''}/images/vitalsync/BP.png`}
                   alt="血圧管理画面"
                   width={300}
                   height={533}
@@ -90,11 +90,11 @@ export default function VitalsyncPage() {
                 <div className="text-sm text-green-600">血圧・脈拍の記録と推移</div>
               </div>
             </div>
-            
+
             <div className="space-y-3">
               <div className="aspect-[9/16] rounded-lg overflow-hidden shadow-lg border border-gray-200">
                 <Image
-                  src="/portfolio/images/vitalsync/medicine.png"
+                  src={`${process.env.NODE_ENV === 'production' ? '/portfolio' : ''}/images/vitalsync/medicine.png`}
                   alt="服薬記録画面"
                   width={300}
                   height={533}
@@ -177,7 +177,7 @@ export default function VitalsyncPage() {
                 </div>
                 <div className="flex">
                   <dt className="w-24 text-gray-600">プラットフォーム:</dt>
-                  <dd className="text-gray-800">iOS / Android</dd>
+                  <dd className="text-gray-800">iOS</dd>
                 </div>
               </dl>
             </div>

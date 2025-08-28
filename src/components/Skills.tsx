@@ -5,9 +5,9 @@ const Skills: React.FC = () => {
     {
       title: "言語・マークアップ",
       skills: [
-        "TypeScript（1年3ヶ月 / 実務）",
-        "JavaScript",
-        "HTML / CSS"
+        "TypeScript（1年6ヶ月）",
+        "JavaScript（2年）",
+        "HTML / CSS（2年）"
       ]
     },
     {

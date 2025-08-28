@@ -7,12 +7,12 @@ const Projects: React.FC = () => {
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">Projects</h2>
         <div className="space-y-12">
-          
+
           {/* iOS アプリ開発 */}
           <div className="bg-white p-8 rounded-lg shadow-md">
             <h3 className="text-2xl font-bold mb-4 text-blue-800">iOS アプリ（個人開発）</h3>
-            <p className="text-lg text-gray-600 mb-6">5つのiOSアプリを個人開発し、App Storeでリリース</p>
-            
+            <p className="text-lg text-gray-600 mb-6">7つのiOSアプリを個人開発し、App Storeでリリース</p>
+
             <div className="bg-blue-50 p-6 rounded-lg mb-6">
               <p className="text-gray-700 mb-4">
                 React Native, Expo, TypeScript などの技術を使用して、
@@ -22,7 +22,7 @@ const Projects: React.FC = () => {
                 <p className="font-semibold text-gray-800 mb-3">
                   App Storeで公開中の全アプリをご覧いただけます
                 </p>
-                <a 
+                <a
                   href="https://apps.apple.com/jp/developer/takahiro-eguchi/id1812546025"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -41,13 +41,13 @@ const Projects: React.FC = () => {
                   体重・血圧・服薬を簡単に記録・管理できる健康管理アプリ。データは端末内に安全に保存され、グラフで変化を視覚的に確認できます。
                 </p>
                 <div className="flex gap-3">
-                  <Link 
-                    href="/projects/vitalsync" 
+                  <Link
+                    href="/projects/vitalsync"
                     className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors text-sm"
                   >
                     詳細を見る
                   </Link>
-                  <a 
+                  <a
                     href="https://apps.apple.com/jp/developer/takahiro-eguchi/id1812546025"
                     className="border border-blue-300 text-blue-600 px-4 py-2 rounded hover:bg-blue-50 transition-colors text-sm"
                     target="_blank"
@@ -64,13 +64,13 @@ const Projects: React.FC = () => {
                   かわいいイラストと一緒に、東大和の魅力を見つけよう！マンホールや公園を巡って、楽しく散策できるアプリです。
                 </p>
                 <div className="flex gap-3">
-                  <Link 
-                    href="/projects/hyapp" 
+                  <Link
+                    href="/projects/hyapp"
                     className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors text-sm"
                   >
                     詳細を見る
                   </Link>
-                  <a 
+                  <a
                     href="https://apps.apple.com/jp/developer/takahiro-eguchi/id1812546025"
                     className="border border-green-300 text-green-600 px-4 py-2 rounded hover:bg-green-50 transition-colors text-sm"
                     target="_blank"

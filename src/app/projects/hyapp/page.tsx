@@ -62,7 +62,7 @@ export default function HyappPage() {
             <div className="space-y-3">
               <div className="aspect-[9/16] rounded-lg overflow-hidden shadow-lg border border-gray-200">
                 <Image
-                  src="/portfolio/images/hyapp/map.png"
+                  src={`${process.env.NODE_ENV === 'production' ? '/portfolio' : ''}/images/hyapp/map.png`}
                   alt="マップ画面"
                   width={300}
                   height={533}
@@ -78,7 +78,7 @@ export default function HyappPage() {
             <div className="space-y-3">
               <div className="aspect-[9/16] rounded-lg overflow-hidden shadow-lg border border-gray-200">
                 <Image
-                  src="/portfolio/images/hyapp/stamp.png"
+                  src={`${process.env.NODE_ENV === 'production' ? '/portfolio' : ''}/images/hyapp/stamp.png`}
                   alt="スタンプ画面"
                   width={300}
                   height={533}
@@ -94,7 +94,7 @@ export default function HyappPage() {
             <div className="space-y-3">
               <div className="aspect-[9/16] rounded-lg overflow-hidden shadow-lg border border-gray-200">
                 <Image
-                  src="/portfolio/images/hyapp/gallery.png"
+                  src={`${process.env.NODE_ENV === 'production' ? '/portfolio' : ''}/images/hyapp/gallery.png`}
                   alt="ギャラリー画面"
                   width={300}
                   height={533}
