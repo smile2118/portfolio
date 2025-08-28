@@ -13,8 +13,8 @@ export default function HyappPage() {
       {/* ナビゲーション */}
       <nav className="bg-white shadow-md sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-6 py-4">
-          <Link 
-            href="/" 
+          <Link
+            href="/"
             className="text-blue-600 hover:text-blue-800 font-medium flex items-center"
           >
             ← ポートフォリオに戻る
@@ -28,15 +28,15 @@ export default function HyappPage() {
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <h1 className="text-4xl font-bold mb-4 text-gray-800">東大和散歩</h1>
           <h2 className="text-2xl text-green-600 mb-6">地域散策アプリ</h2>
-          
+
           <p className="text-lg text-gray-600 mb-6">
             かわいいイラスト「うまべぇ」と一緒に、東大和の魅力を見つけよう！
             マンホールや公園を巡って、楽しく散策できるアプリです。
           </p>
 
           <div className="flex gap-4 mb-8">
-            <a 
-              href="https://apps.apple.com/jp/developer/takahiro-eguchi/id1812546025" 
+            <a
+              href="https://apps.apple.com/jp/developer/takahiro-eguchi/id1812546025"
               className="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors font-medium"
               target="_blank"
               rel="noopener noreferrer"
@@ -74,7 +74,7 @@ export default function HyappPage() {
                 <div className="text-sm text-green-600">現在地とスポット表示</div>
               </div>
             </div>
-            
+
             <div className="space-y-3">
               <div className="aspect-[9/16] rounded-lg overflow-hidden shadow-lg border border-gray-200">
                 <Image
@@ -90,7 +90,7 @@ export default function HyappPage() {
                 <div className="text-sm text-blue-600">うまべぇスタンプコレクション</div>
               </div>
             </div>
-            
+
             <div className="space-y-3">
               <div className="aspect-[9/16] rounded-lg overflow-hidden shadow-lg border border-gray-200">
                 <Image
@@ -218,7 +218,7 @@ export default function HyappPage() {
                 </div>
                 <div className="flex">
                   <dt className="w-24 text-gray-600">プラットフォーム:</dt>
-                  <dd className="text-gray-800">iOS / Android</dd>
+                  <dd className="text-gray-800">iOS</dd>
                 </div>
               </dl>
             </div>
