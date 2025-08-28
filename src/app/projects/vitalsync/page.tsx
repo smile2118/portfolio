@@ -62,7 +62,7 @@ export default function VitalsyncPage() {
             <div className="space-y-3">
               <div className="aspect-[9/16] rounded-lg overflow-hidden shadow-lg border border-gray-200">
                 <Image
-                  src="/images/vitalsync/weight.png"
+                  src="/portfolio/images/vitalsync/weight.png"
                   alt="体重記録画面"
                   width={300}
                   height={533}
@@ -78,7 +78,7 @@ export default function VitalsyncPage() {
             <div className="space-y-3">
               <div className="aspect-[9/16] rounded-lg overflow-hidden shadow-lg border border-gray-200">
                 <Image
-                  src="/images/vitalsync/BP.png"
+                  src="/portfolio/images/vitalsync/BP.png"
                   alt="血圧管理画面"
                   width={300}
                   height={533}
@@ -94,7 +94,7 @@ export default function VitalsyncPage() {
             <div className="space-y-3">
               <div className="aspect-[9/16] rounded-lg overflow-hidden shadow-lg border border-gray-200">
                 <Image
-                  src="/images/vitalsync/medicine.png"
+                  src="/portfolio/images/vitalsync/medicine.png"
                   alt="服薬記録画面"
                   width={300}
                   height={533}
